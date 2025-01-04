@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(0, 85, 255);
+  text-align: center;
+}
+.post-container {
+  margin-bottom: 2rem;
+  height: auto;
+}
+.post {
+  background-color: rgb(227, 227, 227);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.content {
+  color: rgb(92, 92, 92);
+}
+.create_post {
+  margin-bottom: 3rem;
+}
+.create_post a {
+  background-color: rgb(0, 85, 255);
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.create_post a:hover {
+  background-color: rgb(0, 69, 207);
+}
+
+.view-post {
+  display: flex;
+  align-items: center;
+}
+.view-post a {
+  color: rgb(0, 85, 255);
+  margin: 1rem 0;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.view-post a:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+form .inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+form label {
+  display: flex;
+  font-size: 1.2rem;
+  flex-direction: column;
+}
+
+form label input {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+form label textarea {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  background-color: rgb(0, 85, 255);
+  font-size: 1.1rem;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  transition: 0.3s;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.view-post form {
+  margin: 0;
+}
+
+.view-post form .del-btn {
+  width: 15%;
+  font-size: 0.8rem;
+  background-color: rgb(116, 123, 136);
+  opacity: 0.5;
+
+  border-radius: 2px;
+  color: white;
+  padding: 0.1rem;
+  border: none;
+  transition: 0.3s;
+  margin: 0;
+  cursor: pointer;
+}
+
+.view-post form .del-btn:hover {
+  background-color: rgb(255, 0, 0);
+  opacity: 1;
+}
+
+button:hover {
+  background-color: rgb(0, 69, 207);
+}
